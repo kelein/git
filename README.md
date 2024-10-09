@@ -1,6 +1,8 @@
 # Project Template
 
-## Install Kratos
+![Helm](https://img.shields.io/badge/helm_v3-%23101683.svg?style=for-the-badge&logo=helm&logoColor=white)  ![GitHub](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)   [![Build](https://img.shields.io/github/actions/workflow/status/kelein/git/pages%2Fpages-build-deployment?style=for-the-badge&logo=github)](https://github.com/kelein/git/actions)
+
+## Install Binary
 
 ```bash
 go install github.com/go-kratos/kratos/cmd/kratos/v2@latest
@@ -30,17 +32,22 @@ go build -o ./bin/ ./...
 ## Makefile Generate
 
 ```bash
-# Download and update dependencies
-make init
+❯ make
 
-# Generate API proto files
-make api
+Usage:
+ make [target]
 
-# Generate all files
-make all
+Targets:
+init:           init env
+config:         generate proto
+api:            generate api proto
+build:          build binary
+generate:       generate
+all:            generate all
+help:           show help
 ```
 
-## Automated Initial
+## Automate Initial
 
 ```bash
 # install wire
@@ -58,5 +65,5 @@ wire
 docker build -t <your-docker-image-name> .
 
 # run
-docker run --rm -p 8000:8000 -p 9000:9000 -v </path/to/your/configs>:/data/conf <your-docker-image-name>
+docker run --rm -p 8000:8000 -p 9000:9000 -v </path/to/configs>:/data/conf <image-name>
 ```

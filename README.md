@@ -1,6 +1,6 @@
 # Project Template
 
-![Helm](https://img.shields.io/badge/helm_v3-%23101683.svg?style=for-the-badge&logo=helm&logoColor=white)  ![GitHub](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)   [![Build](https://img.shields.io/github/actions/workflow/status/kelein/git/pages%2Fpages-build-deployment?style=for-the-badge&logo=github)](https://github.com/kelein/git/actions)
+![Helm](https://img.shields.io/badge/helm_v3-%23101683.svg?style=for-the-badge&logo=helm&logoColor=white)  ![GitHub](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)   [![Build](https://img.shields.io/github/actions/workflow/status/kelein/git/codeql.yml?style=for-the-badge&logo=github)](https://github.com/kelein/git/actions)
 
 ## Install Binary
 

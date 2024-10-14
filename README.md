@@ -1,16 +1,16 @@
 # Project Template
 
-[![Helm](https://img.shields.io/badge/helm_v3-%23101683.svg?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/kelein/git)      [![GitHub](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/kelein/git/actions)      [![Build](https://img.shields.io/github/actions/workflow/status/kelein/git/codeql.yml?style=for-the-badge&logo=github)](https://github.com/kelein/git/actions)
+![Go](https://img.shields.io/github/go-mod/go-version/kelein/git?style=for-the-badge&logo=go&logoColor=%2300ADD8&color=%2300ADD8)     [![Helm](https://img.shields.io/badge/helm_v3-%23101683.svg?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/kelein/git)      [![GitHub](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/kelein/git/actions)      [![Build](https://img.shields.io/github/actions/workflow/status/kelein/git/codeql.yml?style=for-the-badge&logo=github)](https://github.com/kelein/git/actions)
 
 ## Install Binary
 
-```bash
+```erlang
 go install github.com/go-kratos/kratos/cmd/kratos/v2@latest
 ```
 
 ## Create Service
 
-```bash
+```erlang
 # Create a template project
 kratos new server
 cd server
@@ -31,7 +31,7 @@ go build -o ./bin/ ./...
 
 ## Makefile Generate
 
-```bash
+```erlang
 ❯ make
 
 Usage:
@@ -49,7 +49,7 @@ help:           show help
 
 ## Automate Initial
 
-```bash
+```erlang
 # install wire
 go get github.com/google/wire/cmd/wire
 
@@ -60,7 +60,7 @@ wire
 
 ## Docker Image
 
-```bash
+```erlang
 # build
 docker build -t <your-docker-image-name> .
 

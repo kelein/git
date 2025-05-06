@@ -7,13 +7,14 @@
 package main
 
 import (
+	"github.com/go-kratos/kratos/v2"
+	"github.com/go-kratos/kratos/v2/log"
+
 	"stencil/internal/biz"
 	"stencil/internal/conf"
 	"stencil/internal/data"
 	"stencil/internal/server"
 	"stencil/internal/service"
-	"github.com/go-kratos/kratos/v2"
-	"github.com/go-kratos/kratos/v2/log"
 )
 
 import (

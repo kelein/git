@@ -3,7 +3,7 @@ module stencil
 go 1.24.0
 
 require (
-	github.com/go-kratos/kratos/v2 v2.9.1
+	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/google/wire v0.7.0
 	go.uber.org/automaxprocs v1.6.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20250804133106-a7a43d27e69b
